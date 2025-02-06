@@ -1,0 +1,38 @@
+{
+    "items":  [
+       {
+            "Name": "Veteran Firefighter",
+            "IconFilename": "/Veteran_Firefighter.png",
+            "Rarity": "Rare",
+            "cibles":"All Fire Stations",
+            "location":"Town Hall",
+            "bonus": [
+                {
+                    "name": "Extinguish Speed",
+                    "Value": "50%"
+                },
+                {
+                    "name": "Healing Speed",
+                    "Value": "10%"
+                }
+            ]
+        },
+         {
+            "Name": "Fire Chief Mills",
+            "IconFilename": "/Fire_Chief_Mills.png",
+            "Rarity": "Epic",
+            "cibles":"All Fire Stations",
+            "location":"Town Hall",
+            "bonus": [
+                {
+                    "name": "Additional Units ",
+                    "Value": "1"
+                },
+                {
+                    "name": "Reduces the happiness necessary for the to respond to calls.",
+                    "Value": "-10"
+                }
+            ]
+        
+    }]
+}

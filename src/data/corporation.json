@@ -1,0 +1,169 @@
+{
+    "items": [
+        {
+            "Name": "Illustrious Gemologist",
+            "IconFilename": "/Illustrious_Gemologist.png",
+            "Rarity": "Rare",
+            "cibles": "Jewellers",
+            "location": "Corporation",
+            "bonus": [
+                {
+                    "name": "New Input",
+                    "Value": "Gold -> Gold Ore"
+                },
+                {
+                    "name": "Attractiveness",
+                    "Value": "3"
+                }
+            ]
+        },
+        {
+            "Name": "Goldsmith Gilbert",
+            "IconFilename": "/Goldsmith Gilbert.png",
+            "Rarity": "Epic",
+            "cibles": "Jewellers",
+            "location": "Corporation",
+            "bonus": [
+                {
+                    "name": "New Input",
+                    "Value": "Gold -> Gold Ore"
+                },
+                {
+                    "name": "Attractiveness",
+                    "Value": "5"
+                }
+            ]
+        },
+        {
+            "Name": "François Strindberg, Crown Jeweller",
+            "IconFilename": "/François Strindberg.png",
+            "Rarity": "Legendary",
+            "cibles": "Jewellers",
+            "location": "Corporation",
+            "bonus": [
+                {
+                    "name": "Productivity",
+                    "Value": "50%"
+                },
+                {
+                    "name": "Extra Goods",
+                    "Value": "1/4 Pocket Watches"
+                },
+                {
+                    "name": "Removed Input",
+                    "Value": "-1 Pearls"
+                }
+            ]
+        },
+        {
+            "Name": "Decorator",
+            "IconFilename": "/Decorator.png",
+            "Rarity": "Rare",
+            "cibles": "Bakery",
+            "location": "Corporation",
+            "bonus": [
+                {
+                    "name": "Productivity",
+                    "Value": "30%"
+                },
+                {
+                    "name": "Extra Goods",
+                    "Value": "1/5  Chocolate"
+                }
+            ]
+        },
+        {
+            "Name": "Marie-Antoine Carême - The Royal Pastrycook",
+            "IconFilename": "/Marie-Antoine.png",
+            "Rarity": "Legendary",
+            "cibles": "Bakery",
+            "location": "Corporation",
+            "bonus": [
+                {
+                    "name": "Productivity",
+                    "Value": "50%"
+                },
+                {
+                    "name": "Extra Goods",
+                    "Value": "1/6  Grapes &  1/5 Chocolate"
+                }
+            ]
+        },
+        {
+            "Name": "Cigar-Brander",
+            "IconFilename": "/Cigar-Brander.png",
+            "Rarity": "Rare",
+            "cibles": "Cigar Factory",
+            "location": "Corporation",
+            "bonus": [
+                {
+                    "name": "Productivity",
+                    "Value": "30%"
+                },
+                {
+                    "name": "Workforce Needed",
+                    "Value": "-30%"
+                }
+            ]
+        },
+        {
+            "Name": "Renowned Torcedor",
+            "IconFilename": "/Renowned.png",
+            "Rarity": "Epic",
+            "cibles": "Cigar Factory",
+            "location": "Corporation",
+            "bonus": [
+                {
+                    "name": "Productivity",
+                    "Value": "40%"
+                },
+                {
+                    "name": " New Input",
+                    "Value": "Wood Veneers -> Timber"
+                }
+            ]
+        },
+        {
+            "Name": "Vicente Martinez Ybor - The Cigar Daddy",
+            "IconFilename": "/Vicente Martinez.png",
+            "Rarity": "Legendary",
+            "cibles": "Cigar Factory",
+            "location": "Corporation",
+            "bonus": [
+                {
+                    "name": "Attractiveness",
+                    "Value": "7"
+                },
+                {
+                    "name": "Maintenance Cost",
+                    "Value": "-100%"
+                },
+                {
+                    "name": "Substitute Workforce ",
+                    "Value": "Jornalero Workforce"
+                }
+            ]
+        },
+        {
+            "Name": "Respected Oenologist",
+            "IconFilename": "/Respected Oenologist.png",
+            "Rarity": "Rare",
+            "cibles": "Champagne Cellar, Rum Distillery, Advanced Rum Distillery, Hacienda Rum Distillery",
+            "location": "Corporation",
+            "bonus": [
+                {
+                    "name": "Productivity",
+                    "Value": "20%"
+                },
+                {
+                    "name": "Maintenance Cost",
+                    "Value": "-15%"
+                },
+                {
+                    "name": "Attractiveness  ",
+                    "Value": "3 "
+                }
+            ]
+        }
+    ]
+}
