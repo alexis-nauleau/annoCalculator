@@ -1,0 +1,45 @@
+{
+    "batiments": [
+        {
+            "Name": "Planches",
+            "IconFilename": "planche.png",
+            "besoins": [
+                {
+                    "name": "Bois",
+                    "Picture":"bois.png",
+                    "value":"1",
+                    "price":"100"
+                },
+                {
+                    "name": "Scierie",
+                    "Picture":"scierie.png",
+                    "value":"1",
+                    "price":"100"
+                }
+            ]
+        },
+        {
+            "Name": "Marché",
+            "IconFilename": "Marche.png",
+            "besoins": [
+                {
+                    "name": "Planches",
+                    "Picture":"",
+                    "value":"10",
+                    "price":"500"
+                }
+            ]
+        },
+        {
+            "Name": "Maison",
+            "IconFilename": "Maison.png",
+            "besoins": [
+                {
+                    "name": "Planches",
+                    "Picture":"",
+                    "value":"2"
+                }
+            ]
+        }
+    ]
+}

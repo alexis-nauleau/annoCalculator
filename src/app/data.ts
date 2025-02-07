@@ -1,17 +1,18 @@
 import { ProductionChain, PopulationName, Material  } from './types';
 
 export const populationData: Record<PopulationName, string> = {
-  Paysans: "/fermiers.webp",
-  Ouvriers: "/ouvriers.webp",
-  Artisans: "/artisans.webp",
-  Ingénieurs: "/ingenieurs.webp",
+  Paysans: "/residents/fermiers.webp",
+  Ouvriers: "/residents/ouvriers.webp",
+  Artisans: "/residents/artisans.webp",
+  Ingénieurs: "/residents/ingenieurs.webp",
+
 };
 export const materialImages: Record<string, string> = {
-  Bois: "/bois.webp",
-  Barre_de_fer:"/barre-de-fer.webp",
-  Fenetre:"./fenetre.webp",
-  Ciment:"./ciment.webp",
-  Brique:"./brique.webp",
+  Bois: "/materiaux/bois.webp",
+  Barre_de_fer:"/materiaux/barre-de-fer.webp",
+  Fenetre:"./materiaux/fenetre.webp",
+  Ciment:"./materiaux/ciment.webp",
+  Brique:"./materiaux/brique.webp",
 };
 
 

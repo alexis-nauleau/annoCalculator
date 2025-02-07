@@ -1,106 +1,79 @@
 {
     "items": [
         {
-    "Name": "Arborist",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_403.png",
-    "Rarity": "Rare"
-},
-{
-    "Name": "Expert Horticulturist",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_308.png",
-    "Rarity": "Epic"
-
-},
-{
-    "Name": "Ingenious Arborist",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_105.png",
-    "Rarity": "Epic"
-},
-{
-    "Name": "August Grisebach - The Plants Geographer",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_102_b.png",
-    "Rarity": "Legendary"
-},
-{
-    "Name": "Steely-eyed Steelsmith",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_203.png",
-    "Rarity": "Rare"
-},
-{
-    "Name": "Master of the Forges",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_410.png",
-    "Rarity": "Epic"
-},
-{
-
-    "Name": "Henri Zanchi, Man of Steel",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_111.png",
-    "Rarity": "Legendary"
-},
-{
-    "Name": "Ranger",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_explorer_716.png",
-    "Rarity": "Rare"
-},
-{
-    "Name": "Hunter",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/icon_hunter_native.png",
-    "Rarity": "Rare"
-},
-{
-    "Name": "Forest Guardian",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_forester_401.png",
-    "Rarity": "Epic"
-},
-{
-    "Name": "Night Hunter",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/icon_hunter_common.png",
-    "Rarity": "Epic"
-},
-{
-    "Name": "Bernhard Danckelmann - The Forest Scientist",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_hunter_300.png",
-    "Rarity": "Legendary"
-},
-{
-    "Name": "Agriculturist",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_313.png",
-    "Rarity": "Rare"
-},
-{
-    "Name": "Agronomist",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_104.png",
-    "Rarity": "Rare"
-  },
-  {
-    "Name": "Passionate Homesteader",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_302.png",
-    "Rarity": "Epic"
-},
-{
-    "Name": "Calciner I",
-    "IconFilename": "data/ui/2kimages/main/3dicons/machine_items/icon_calciner_3.png",
-    "Rarity": "Rare"
-},
-{
-    "Name": "Regulation III",
-    "IconFilename": "data/ui/2kimages/main/3dicons/consumables/icon_tax_bill_3.png",
-    "Rarity": "Rare"   
-},
-{
-    "Name": "Agronomous Engineer",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_normal_dressed_105.png",
-    "Rarity": "Epic"
-},
-{
-    "Name": "Cosimo Ridolfi - The Agronomics Inventor",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_107.png",
-    "Rarity": "Legendary"
-},
-{
-    "Name": "Sapper",
-    "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_107.png",
-    "Rarity": "Rare"
-  }
+            "Name": "Master of the Forges",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_410.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Henri Zanchi, Man of Steel",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_111.png",
+            "Rarity": "Legendary"
+        },
+        {
+            "Name": "Ranger",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_explorer_716.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Hunter",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/icon_hunter_native.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Forest Guardian",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_forester_401.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Night Hunter",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/icon_hunter_common.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Bernhard Danckelmann - The Forest Scientist",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_hunter_300.png",
+            "Rarity": "Legendary"
+        },
+        {
+            "Name": "Agriculturist",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_313.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Agronomist",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_104.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Passionate Homesteader",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_farmer_302.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Calciner I",
+            "IconFilename": "data/ui/2kimages/main/3dicons/machine_items/icon_calciner_3.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Regulation III",
+            "IconFilename": "data/ui/2kimages/main/3dicons/consumables/icon_tax_bill_3.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Agronomous Engineer",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_normal_dressed_105.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Cosimo Ridolfi - The Agronomics Inventor",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_107.png",
+            "Rarity": "Legendary"
+        },
+        {
+            "Name": "Sapper",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_107.png",
+            "Rarity": "Rare"
+        }
     ]
 }

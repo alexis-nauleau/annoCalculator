@@ -7,6 +7,7 @@ const Header = () => {
                 <Link href="/" className="text-white hover:text-blue-400 transition">Home</Link>
                 <Link href="/chaine" className="text-white hover:text-blue-400 transition">Chaine</Link>
                 <Link href="/objects" className="text-white hover:text-blue-400 transition">Objects</Link>
+                <Link href="/calculator" className="text-white hover:text-blue-400 transition">Calculator</Link>
             </div>
         </nav>
     );

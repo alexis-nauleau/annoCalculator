@@ -1,0 +1,53 @@
+{
+    "batiments": [
+        {
+            "Name": "Planches",
+            "IconFilename": "planche.png",
+            "besoins": [
+                {
+                    "name": "bois",
+                    "Picture":"bois.png",
+                    "value":"1",
+                    "price":"100"
+                },
+                {
+                    "name": "scierie",
+                    "Picture":"scierie.png",
+                    "value":"1",
+                    "price":"100"
+                }
+            ]
+        },
+        {
+            "Name": "Marché",
+            "IconFilename": "Marche.png",
+            "besoins": [
+                {
+                    "name": "planches",
+                    "Picture":"",
+                    "value":"10",
+                    "price":"500"
+                }
+            ]
+        },
+        {
+            "Name": "maison",
+            "IconFilename": "Maison.png",
+            "besoins": [
+                {
+                    "name": "planches",
+                    "Picture":"",
+                    "value":"2"
+                }
+            ]
+        }
+    ]
+}
+
+
+entrepot    10planche   500
+pecherie 2bois 100
+eau devie   1patate 2 planches  100     1   distillerie 2 planches  100
+vetements    1coton 2 planches  100     1   fillature 2 planches  400
+pompier 500 4planches
+pub 500 10 planches

@@ -16,6 +16,11 @@ const page = () => {
         <li>Salvador  epic   Cigar Factory, Chocolate Factory, Coffee Roaster, All New World Chemical Plants Nouveau monde</li>
         <li>Steven MacLeod  Légendaire   All Clay Pits, All Saltpetre Works, Sand Mine, Limestone Quarry, Clay Collector, Bauxite Mine</li>
 
+
+<li>acteur  rare Targets: All Old World Residences
+
+Bonus Supply: Variety Theatre - Rum, Canned Food
+Happiness: 3</li>
       </ul>
     </div>
   )
