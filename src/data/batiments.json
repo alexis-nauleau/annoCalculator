@@ -1,16 +1,4 @@
 {
-    "Marche": {
-        "Name": "Marché",
-        "IconFilename": "./batiments/marche.png",
-        "price": "500",
-        "besoins": [
-            {
-                "name": "Planches",
-                "IconFilename": "",
-                "value": "10"
-            }
-        ]
-    },
     "Planches": {
         "Name": "Planches",
         "IconFilename": "./productions/planche.png",
@@ -27,6 +15,116 @@
                 "IconFilename": "./productions/planche.png",
                 "value": "1",
                 "price": "100"
+            }
+        ],
+        "population": [
+            {
+                "name": "Paysans",
+                "count": 15,
+                "IconFilename": "./residents/icone_fermiers.png"
+            }
+        ]
+    },
+    "Brique": {
+        "Name": "Brique",
+        "IconFilename": "./productions/brique.png",
+        "price": "0",
+        "besoins": [
+            {
+                "name": "argile",
+                "IconFilename": "/productions/argile.png",
+                "value": "1",
+                "price": "500",
+                "besoins": [
+                    {
+                        "name": "Planches",
+                        "IconFilename": "./productions/planche.png",
+                        "value": "4"
+                    }
+                ],
+                "population": [
+                    {
+                        "name": "Ouvriers",
+                        "count": 50,
+                        "IconFilename": "./residents/icone_ouvriers.png"
+                    }
+                ]
+            },
+            {
+                "name": "briqueterie",
+                "IconFilename": "./productions/brique.png",
+                "value": "2",
+                "price": "500",
+                "besoins": [
+                    {
+                        "name": "Planches",
+                        "IconFilename": "./productions/planche.png",
+                        "value": "8"
+                    }
+                ],
+                "population": [
+                    {
+                        "name": "Ouvriers",
+                        "count": 25,
+                        "IconFilename": "./residents/icone_ouvriers.png"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "Marche": {
+        "Name": "Marché",
+        "IconFilename": "./batiments/marche.png",
+        "price": "500",
+        "besoins": [
+            {
+                "name": "Planches",
+                "IconFilename": "",
+                "value": "10"
+            }
+        ]
+    },
+    "pecherie": {
+        "Name": "pecherie",
+        "IconFilename": "./productions/poisson.png",
+        "price": "100",
+        "besoins": [
+            {
+                "name": "Planches",
+                "IconFilename": "./productions/planche.png",
+                "value": "2"
             }
         ]
     },
@@ -99,21 +197,44 @@
         "besoins": [
             {
                 "name": "Planches",
-               "IconFilename": "./productions/planche.png",
+                "IconFilename": "./productions/planche.png",
                 "value": "10"
             }
         ]
     },
-    "pecherie": {
-        "Name": "pecherie",
-        "IconFilename": "./productions/poisson.png",
-        "price": "100",
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    "corporation": {
+        "Name": "corporation",
+        "IconFilename": "./batiments/corporation.png",
+        "price": "2500",
         "besoins": [
             {
                 "name": "Planches",
                 "IconFilename": "./productions/planche.png",
-                "value": "2"
+                "value": "25"
+            },
+            {
+                "name": "Brique",
+                "IconFilename": "./productions/brique.png",
+                "value": "5"
             }
         ]
-    }
+    },
 }

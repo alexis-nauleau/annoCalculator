@@ -94,7 +94,8 @@ export default function ProductionList() {
       <h1 className="text-2xl font-bold mb-4">Liste de production</h1>
        <div className=" flex flex-wrap  gap-2">
       {Object.keys(batimentsData)
-      .filter((batimentName) => batimentName !== "Planches")
+      .filter((batimentName) => batimentName !== "Planches" && batimentName !== "Brique")
+
       .map((batimentName) => {
       const batiment = batimentsData[batimentName] as Batiment | undefined;
       if (!batiment) return;

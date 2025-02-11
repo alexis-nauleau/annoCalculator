@@ -1,0 +1,311 @@
+[
+    {
+        "name": "saucisse",
+        "besoins": [
+            {
+                "name": "porc",
+                "value": 500
+            },
+            {
+                "name": "plaques",
+                "value": 4
+            }
+        ],
+        "installations": [
+            {
+                "name": "boucherie",
+                "capacité": 500,
+                "ouvriers": 4
+            },
+            {
+                "name": "ouvriers",
+                "nombre": 30
+            }
+        ]
+    },
+
+    {
+        "name": "eglise",
+        "capacité": 2500,
+        "ouvriers": 20,
+        "briques nécessaires": 25
+    },
+    {
+        "name": "voile",
+        "besoins": [
+            {
+                "name": "mouton",
+                "value": 100
+            },
+            {
+                "name": "plaques",
+                "value": 2
+            }
+        ],
+        "installations": [
+            {
+                "name": "voilerie",
+                "capacité": 500,
+                "ouvriers": 8
+            },
+            {
+                "name": "briques": 10
+            },
+            {
+                "name": "paysan",
+                "nombre": 10
+            },
+            {
+                "name": "ouvriers",
+                "nombre": 50
+            }
+        ]
+    },
+    {
+        "name": "chantier nav",
+        "capacité": 10000,
+        "ouvriers": 20,
+        "briques nécessaires": 25,
+        "nombre d'ouvriers": 100
+    },
+    {
+        "name": "depot",
+        "capacité": 2500,
+        "ouvriers": 10,
+        "briques nécessaires": 10
+    },
+    {
+        "name": "barre de fer",
+        "besoins": [
+            {
+                "name": "fer",
+                "value": 800
+            },
+            {
+                "name": "briques",
+                "value": 5
+            },
+            {
+                "name": "plaques",
+                "value": 4
+            }
+        ],
+        "installations": [
+            {
+                "name": "fourneau",
+                "capacité": 500,
+                "ouvriers": 4
+            },
+            {
+                "name": "charbonniere",
+                "capacité": 500,
+                "ouvriers": 4
+            },
+            {
+                "name": "acierie",
+                "capacité": 1000,
+                "ouvriers": 8
+            },
+            {
+                "name": "briques nécessaires": 10
+            },
+            {
+                "name": "nombre d'ouvriers": 870
+            }
+        ]
+    },
+    {
+        "name": "savon",
+        "besoins": [
+            {
+                "name": "porc",
+                "value": 500
+            },
+            {
+                "name": "plaques",
+                "value": 4
+            },
+            {
+                "name": "suif",
+                "value": 500
+            },
+            {
+                "name": "briques",
+                "value": 5
+            },
+            {
+                "name": "barre de fer",
+                "value": 1
+            }
+        ],
+        "installations": [
+            {
+                "name": "savonnerie",
+                "capacité": 4,
+                "ouvriers": 5
+            },
+            {
+                "name": "briques nécessaires": 5
+            },
+            {
+                "name": "barre de fer",
+                "value": 4
+            },
+            {
+                "name": "nombre d'ouvriers": 60
+            }
+        ]
+    },
+    {
+        "name": "armes",
+        "besoins": [
+            {
+                "name": "fer",
+                "value": 800
+            },
+            {
+                "name": "briques",
+                "value": 5
+            },
+            {
+                "name": "plaques",
+                "value": 4
+            }
+        ],
+        "installations": [
+            {
+                "name": "fourneau",
+                "capacité": 500,
+                "ouvriers": 4
+            },
+            {
+                "name": "charbonniere",
+                "capacité": 500,
+                "ouvriers": 4
+            },
+            {
+                "name": "armurerie",
+                "capacité": 700,
+                "ouvriers": 8
+            },
+            {
+                "name": "briques nécessaires": 10
+            },
+            {
+                "name": "barre de fer",
+                "value": 8
+            },
+            {
+                "name": "nombre d'ouvriers": 570
+            }
+        ]
+    },
+    {
+        "name": "biere",
+        "besoins": [
+            {
+                "name": "blé",
+                "value": 500
+            },
+            {
+                "name": "briques",
+                "value": 5
+            },
+            {
+                "name": "briques",
+                "value": 4
+            },
+            {
+                "name": "houblon",
+                "value": 500
+            },
+            {
+                "name": "plaques",
+                "value": 4
+            }
+        ],
+        "installations": [
+            {
+                "name": "malterie",
+                "capacité": 500,
+                "ouvriers": 4
+            },
+            {
+                "name": "briques nécessaires": 5
+            },
+            {
+                "name": "barre de fer",
+                "value": 4
+            },
+            {
+                "name": "briques nécessaires": 5
+            },
+            {
+                "name": "nombre d'ouvriers": 100
+            }
+        ]
+    },
+    {
+        "name": "pain",
+        "besoins": [
+            {
+                "name": "blé",
+                "value": 500
+            },
+            {
+                "name": "briques",
+                "value": 5
+            },
+            {
+                "name": "moulin",
+                "capacité": 500,
+                "ouvriers": 4
+            },
+            {
+                "name": "briques nécessaires": 5
+            },
+            {
+                "name": "boulaznge",
+                "value": 4
+            },
+            {
+                "name": "nombre d'ouvriers": 50
+            }
+        ]
+    },
+    {
+        "name": "police",
+        "capacité": 2500,
+        "ouvriers": 8,
+        {
+            "name": "briques nécessaires": 10
+        }
+    },
+    {
+        "name": "ecole",
+        "capacité": 2500,
+        "ouvriers": 20,
+        {
+            "name": "briques nécessaires": 25
+        },
+        {
+            "name": "barre de fer",
+            "value": 20
+        }
+    }
+]
+
+-----------------------------------
+fenetre
+conserve
+hotel de ville 2500 20 boi25 brique 20barre 5fen
+machine a coudre
+theatre 10000 30 boi 50 brique 40barre 40fen
+amarage public 25000 20 boi20 brique 10barre 8fen
+rhum
+zoo 10000     30 bois 30 bri  10bar   5fen
+costume
+hopital 10000   12 bois 20 bri  16bar   40fen
+universite  15000  30 bois 50 bri  40bar   40fen 
+musée 10000     30 bois 30 bri  10bar   5fen
+-----------------------------------
