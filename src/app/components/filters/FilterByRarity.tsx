@@ -7,7 +7,7 @@ export default function FilterByRarity({ rarityFilter, setRarityFilter }: Filter
     <select
       onChange={(e) => setRarityFilter(e.target.value)}
       value={rarityFilter}
-      className="bg-white text-black py-2 px-4 border border-gray-300 rounded-md"
+      className="bg-white text-black py-2 px-4 border border-gray-300 rounded-md "
     >
       <option value="all">Toutes les raretés</option>
       <option value="Common">Commun</option>

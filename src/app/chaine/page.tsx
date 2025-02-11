@@ -12,6 +12,7 @@ const difficultyColors: { [key: number]: string } = {
   3: "#ffc107",
   4: "#dc3545",
   5: "#840B93",
+  6: "pink"
 };
 
 export default function Home() {
@@ -108,7 +109,7 @@ export default function Home() {
           <div  id="money" className="absolute w-[100px] h-[50px] top-[10px] right-[10px] border-4 border-[#FCE69D] pl-5" style={{ display: "inline-flex", alignItems: "center" }}>
             <span>{productionChains[selectedChain].price.toString()}</span>
             <Image
-              src="/dollard.webp"
+              src="/icon_resource_money_4_1.png"
               height={24}
               width={24}
               alt="Dollar icon"

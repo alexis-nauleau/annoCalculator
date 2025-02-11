@@ -38,7 +38,7 @@ export interface Ratio {
     price:Number
     materials: Material[];
     descriptionImage: string;
-    difficulty: 1 | 2 | 3 | 4|5;
+    difficulty: 1 | 2 | 3 | 4|5|6;
     population:Population[];
   }
   
@@ -47,5 +47,5 @@ export interface Ratio {
     count:Number
   }
   
-  export type PopulationName = "Paysans" | "Ouvriers" | "Artisans" | "Ingénieurs";
+  export type PopulationName = "Paysans" | "Ouvriers" | "Artisans" | "Ingénieurs" | "Investisseurs";
   

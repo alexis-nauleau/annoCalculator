@@ -7,7 +7,7 @@ export default function FilterByTarget({ targetFilter, setTargetFilter, allTarge
     <select
       onChange={(e) => setTargetFilter(e.target.value)}
       value={targetFilter}
-      className="bg-white text-black py-2 px-4 border border-gray-300 rounded-md"
+      className="bg-white text-black py-2 px-4 border border-gray-300 rounded-md w-[30%]"
     >
       <option value="all">Toutes les cibles</option>
       {allTargets.map((target, index) => (

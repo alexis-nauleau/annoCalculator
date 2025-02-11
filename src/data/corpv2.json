@@ -74,6 +74,151 @@
             "Name": "Sapper",
             "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_107.png",
             "Rarity": "Rare"
-        }
+        },
+        {
+            "Name": "Mining Engineer",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_miner_401.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "James W. Marshall - The Gold Discoverer",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_104.png",
+            "Rarity": "Legendary"
+        },
+        {
+            "Name": "Optical Scientist",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_408.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Master Stylist",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_602.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Researcher",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_normal_dressed_401.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Isambard Kingdom Brunel - The Engineering Giant",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_205.png",
+            "Rarity": "Legendary"
+        },
+        {
+            "Name": "Vaughan Drag Saw",
+            "IconFilename": "data/ui/2kimages/main/3dicons/machine_items/icon_dragsaw_3.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Optical Designer",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_travelagent_723.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Soaper",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_grocer724.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Moritz von Rohr - The Eyeglass Lens Designer",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_206.png",
+            "Rarity": "Legendary"
+        },
+        {
+            "Name": "Chemist",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_418.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Smith Electric Stove",
+            "IconFilename": "data/ui/2kimages/main/3dicons/machine_items/icon_stove_3.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Precision Monocular",
+            "IconFilename": "data/ui/2kimages/main/3dicons/machine_items/icon_precision_instruments_2.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Glass Mechanical Press",
+            "IconFilename": "data/ui/2kimages/main/3dicons/machine_items/icon_glass_working_2.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Huge Bag of money",
+            "IconFilename": "data/ui/2kimages/main/3dicons/consumables/icon_moneybag_epic.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Factory Maintenance Decree",
+            "IconFilename": "data/ui/2kimages/main/3dicons/museum/icon_book_uncommon.png",
+            "Rarity": "Rare"
+        },
+        {
+            "Name": "Pollution Ban Act",
+            "IconFilename": "data/ui/2kimages/main/3dicons/museum/icon_book_rare.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Factory Reformer Mikhail Bakunin",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_anarchist_bekoin.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Cola Mola Machine",
+            "IconFilename": "data/ui/2kimages/main/3dicons/machine_items/icon_cola_mola_machine.png",
+            "Rarity": "Legendary"
+        },
+        {
+            "Name": "Wine Tasting Advertizement",
+            "IconFilename": "data/ui/2kimages/main/3dicons/posters/icon_culture_advertisement_02.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Industrial Filter II",
+            "IconFilename": "data/ui/2kimages/main/3dicons/machine_items/icon_heatexchanger_2.png",
+            "Rarity": "Epic"
+        },
+        {
+            "Name": "Fodder Supplements III",
+            "IconFilename": "data/ui/2kimages/main/3dicons/consumables/icon_medicine_3.png",
+            "Rarity": "Epic"
+          },
+          {
+            "Name": "Samuel Colgate - The Hygiene Products Giant",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_206.png",
+            "Rarity": "Legendary" 
+          },
+          {
+            "Name": "Horologist",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_worker_407.png",
+            "Rarity": "Rare"
+          },
+          {
+            "Name": "Luxury Watch Designer",
+            "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_407.png",
+            "Rarity": "Epic"
+              },
+              { 
+                "Name": "Matthäus Hipp - The Talented Clockmaker",
+                "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_108.png",
+                "Rarity": "Legendary"
+              },
+              {
+                "Name": "Tailor",
+                "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_304.png",
+                "Rarity": "Rare"
+              },
+              {
+                "Name": "Costumer",
+                "IconFilename": "data/ui/2kimages/main/3dicons/specialists/systemic/icon_well_dressed_409.png",
+                "Rarity": "Rare"
+              },
+              {
+                "Name": "Coral III",
+                "IconFilename": "data/ui/2kimages/main/3dicons/plants/icon_staghorn_coral.png",
+                "Rarity": "Epic"
+              }
     ]
 }

@@ -1,119 +1,127 @@
 export const getImageForRatio = (name: string): string => {
     switch (name) {
         case "Fer":
-            return "./fer.webp";
+            return "./productions/fer.png";
+        case "Planche":
+            return "./productions/Planche.png";
         case "Bois":
-            return "./bois.webp";
+            return "./productions/bois.png";
         case "Charbon":
-            return "./charbon.webp";
+            return "./productions/charbon.png";
         case "Vitrerie":
-            return "./vitrerie.webp";
+            return "./productions/vitrerie.png";
         case "Silice":
-            return "./silice.webp";
+            return "./productions/silice.png";
         case "Fourneaux":
-            return "./barre-de-fer.webp";
+            return "./productions/barredefer.png";
         case "Fenetre":
-            return "./fenetre.webp";
+            return "./productions/fenetre.png";
         case "Cochons":
-            return "./cochons.webp";
+            return "./productions/cochon.png";
         case "Ferme de blé":
-            return "./ble.webp";
+            return "./productions/ble.webp";
         case "Fourrure":
-            return "./fourrure.webp";
+            return "./productions/fourrure.png";
         case "R-Coton":
-            return "./coton.webp";
+            return "./productions/coton.png";
         case "Coton":
-            return "./plantion-coton.webp";
+            return "./productions/plantationcotton.png";
         case "Calcaire":
-            return "./calcaire.webp";
+            return "./productions/calcaire.png";
         case "Ciment":
-            return "./ciment.webp";
-
+            return "./productions/ciment.png";
         case "Laiton":
-            return "./laiton.webp";
+            return "./productions/laiton.png";
         case "Zinc":
-            return "./zinc.webp";
+            return "./productions/zinc.png";
         case "Cuivre":
-            return "./cuivre.webp";
+            return "./productions/cuivre.png";
         case "Salpetre":
-            return "./salpetre.webp";
+            return "./productions/salpetre.webp";
+        case "saucisse":
+            return "./productions/saucisse.png";
         case "Caoutchou":
-            return "./caoutchou.webp";
-
+            return "./productions/caoutchou.webp";
         case "Lingots":
-            return "./lingot.webp";
+            return "./productions/lingot.png";
         case "Or":
-            return "./or.webp";
+            return "./productions/or.png";
         case "Raisin":
-            return "./raisin.webp";
+            return "./productions/raisin.png";
         case "Perles":
-            return "./perles.webp";
+            return "./productions/perles.png";
         case "Marqueterie":
-            return "./marqueterie.webp";
-            
-
-        //--------------------------------------
+            return "./productions/marquetterie.png";
         case "Véhicules":
-            return "./vehicule.webp";
+            return "./productions/vehicule.png";
         case "Roue":
-            return "./roue.webp";
+            return "./productions/roue.png";
         case "Gramophone":
-            return "./gramophone.webp";
+            return "./productions/gramophone.png";
         case "Bijoux":
-            return "./bijoux.webp";
+            return "./productions/bijoux.png";
         case "Montres":
-            return "./montre.webp";
+            return "./productions/montre.png";
         case "Champagne":
-            return "./champagne.webp";
+            return "./productions/champagne.webp";
         case "Boulangerie":
-            return "./boulangerie.webp";
+            return "./productions/boulangerie.png";
         case "Ampoules":
-            return "./ampoules.webp";
+            return "./productions/ampoule.png";
         case "Filament":
-            return "./filament.webp";
+            return "./productions/filament.png";
         case "Moteur":
-            return "./moteur.webp";
+            return "./productions/moteur.png";
         case "Cycle":
-            return "./cycle.webp";
+            return "./productions/cycle.png";
         case "Moulin":
-            return "./farine.webp";
+            return "./productions/farine.png";
+        case "mouton":
+            return "./productions/mouton.png";
+        case "mouton":
+            return "./productions/mouton.png";
+        case "brique":
+            return "./productions/brique.png";
+        case "argile":
+            return "./productions/argile.png";
+        case "schnapps":
+            return "./productions/schnapps.png";
+        case "pommedeterre":
+            return "./productions/pommedeterre.png";
         case "Brasserie":
-            return "./brasserie.webp";
+            return "./productions/brasserie.png";
         case "Arme":
-            return "./armes.webp";
+            return "./productions/armes.webp";
         case "Houblon":
-            return "./houblon.webp";
+            return "./productions/houblon.png";
         case "Malterie":
-            return "./malterie.webp";
+            return "./productions/malterie.webp";
         case "Usines":
-            return "./mettalerie.webp";
+            return "./productions/metallerie.png";
         case "Savonnerie":
-            return "./savonnerie.webp";
+            return "./productions/savonnerie.png";
         case "Render":
-            return "./render.webp";
-        case "Malterie":
-            return "./malterie.webp";
+            return "./productions/render.png";
         case "Conserve":
-            return "./conserve.webp";
+            return "./productions/conserve.webp";
         case "Cuisine":
-            return "./cuisine.webp";
+            return "./productions/cuisine.png";
         case "Boeuf":
-            return "./boeuf.webp";
+            return "./productions/boeuf.png";
         case "Poivrons":
-            return "./poivrons.webp";
+            return "./productions/poivrons.png";
         case "Machine":
-            return "./machine.webp";
+            return "./productions/machine.png";
         case "Vetement":
-            return "./vetement.webp";
+            return "./productions/vetement.png";
         case "Lunettes":
-            return "./lunettes.webp";
+            return "./productions/lunette.png";
+        case "vetementsdetravail":
+            return "./productions/vetementsdetravail.png";
         case "Armes_lourdes":
-            return "./armes_lourdes.webp";
+            return "./productions/armeslourdes.png";
         case "Dynamite":
-            return "./dynamite.webp";
-   
-
-
+            return "./productions/dynamite.png";
         default:
             return "";
     }

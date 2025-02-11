@@ -1,45 +1,119 @@
 {
-    "batiments": [
-        {
-            "Name": "Planches",
-            "IconFilename": "planche.png",
-            "besoins": [
-                {
-                    "name": "Bois",
-                    "Picture":"bois.png",
-                    "value":"1",
-                    "price":"100"
-                },
-                {
-                    "name": "Scierie",
-                    "Picture":"scierie.png",
-                    "value":"1",
-                    "price":"100"
-                }
-            ]
-        },
-        {
-            "Name": "Marché",
-            "IconFilename": "Marche.png",
-            "besoins": [
-                {
-                    "name": "Planches",
-                    "Picture":"",
-                    "value":"10",
-                    "price":"500"
-                }
-            ]
-        },
-        {
-            "Name": "Maison",
-            "IconFilename": "Maison.png",
-            "besoins": [
-                {
-                    "name": "Planches",
-                    "Picture":"",
-                    "value":"2"
-                }
-            ]
-        }
-    ]
+    "Marche": {
+        "Name": "Marché",
+        "IconFilename": "./batiments/marche.png",
+        "price": "500",
+        "besoins": [
+            {
+                "name": "Planches",
+                "IconFilename": "",
+                "value": "10"
+            }
+        ]
+    },
+    "Planches": {
+        "Name": "Planches",
+        "IconFilename": "./productions/planche.png",
+        "price": "0",
+        "besoins": [
+            {
+                "name": "Bois",
+                "IconFilename": "/productions/bois.png",
+                "value": "1",
+                "price": "100"
+            },
+            {
+                "name": "Scierie",
+                "IconFilename": "./productions/planche.png",
+                "value": "1",
+                "price": "100"
+            }
+        ]
+    },
+    "Vêtements": {
+        "Name": "Vêtements",
+        "IconFilename": "./productions/vetementsdetravail.png",
+        "price": "0",
+        "besoins": [
+            {
+                "name": "Moutons",
+                "IconFilename": "./productions/mouton.png",
+                "value": "1",
+                "price": "500"
+            },
+            {
+                "name": "vetementsdetravail",
+                "IconFilename": "./productions/vetementsdetravail.png",
+                "value": "1",
+                "price": "500"
+            }
+        ]
+    },
+    "Schnapps": {
+        "Name": "Schnapps",
+        "IconFilename": "./productions/schnapps.png",
+        "price": "0",
+        "besoins": [
+            {
+                "name": "pomme de terre",
+                "IconFilename": "./productions/pommedeterre.png",
+                "value": "1",
+                "price": "500"
+            },
+            {
+                "name": "eaudevie",
+                "IconFilename": "./productions/schnapps.png",
+                "value": "1",
+                "price": "500"
+            }
+        ]
+    },
+    "Entrepot": {
+        "Name": "Entrepot",
+        "IconFilename": "./batiments/Entrepot.png",
+        "price": "500",
+        "besoins": [
+            {
+                "name": "Planches",
+                "IconFilename": "",
+                "value": "10"
+            }
+        ]
+    },
+    "Pompier": {
+        "Name": "Pompier",
+        "IconFilename": "./batiments/pompiers.png",
+        "price": "500",
+        "besoins": [
+            {
+                "name": "Planches",
+                "IconFilename": "./productions/planche.png",
+                "value": "4"
+            }
+        ]
+    },
+    "Pub": {
+        "Name": "Pub",
+        "IconFilename": "./batiments/pub.png",
+        "price": "500",
+        "besoins": [
+            {
+                "name": "Planches",
+               "IconFilename": "./productions/planche.png",
+                "value": "10"
+            }
+        ]
+    },
+    "pecherie": {
+        "Name": "pecherie",
+        "IconFilename": "./productions/poisson.png",
+        "price": "100",
+        "besoins": [
+            {
+                "name": "Planches",
+                "IconFilename": "./productions/planche.png",
+                "value": "2"
+            }
+        ]
+    }
 }

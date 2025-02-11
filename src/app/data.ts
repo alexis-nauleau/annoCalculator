@@ -1,33 +1,149 @@
 import { ProductionChain, PopulationName, Material  } from './types';
 
 export const populationData: Record<PopulationName, string> = {
-  Paysans: "/residents/fermiers.webp",
-  Ouvriers: "/residents/ouvriers.webp",
-  Artisans: "/residents/artisans.webp",
-  Ingénieurs: "/residents/ingenieurs.webp",
+  Paysans: "/residents/icone_fermiers.png",
+  Ouvriers: "/residents/icone_ouvriers.png",
+  Artisans: "/residents/icone_artisans.png",
+  Ingénieurs: "/residents/icone_ingenieurs.png",
+  Investisseurs: "/residents/icone_investisseurs.png",
 
 };
 export const materialImages: Record<string, string> = {
-  Bois: "/materiaux/bois.webp",
-  Barre_de_fer:"/materiaux/barre-de-fer.webp",
-  Fenetre:"./materiaux/fenetre.webp",
-  Ciment:"./materiaux/ciment.webp",
-  Brique:"./materiaux/brique.webp",
+  Planche: "./materiaux/planche.png",
+  Barre_de_fer:"./materiaux/metallerie.png",
+  Fenetre:"./materiaux/fenetre.png",
+  Ciment:"./materiaux/ciment.png",
+  Brique:"./materiaux/brique.png",
 };
 
 
 export const productionChains: { [key: string]: ProductionChain } = {
-  Pain: {
+  Planches: {
+    ratios: [
+      { name: "Bois", quantity: 1 },
+      { name: "Planche", quantity: 1 },
+
+    ],
+    materials: [
+      { name: "Planche", amount: 20 }
+    ],
+    descriptionImage: "./productions/Planche.png",
+    difficulty: 6,
+    population: [
+      { name: "Paysans", count: 15 }
+    ],
+    price: 200,
+  },
+
+  Poissons: {
+    ratios: [
+      { name: "Planche", quantity: 1 },
+    ],
+    materials: [
+      { name: "Planche", amount: 2 },
+    ],
+    descriptionImage: "./productions/poisson.png",
+    difficulty: 6,
+    population: [
+      { name: "Paysans", count: 25 }
+    ],
+    price: 100,
+  },
+  Blouse: {
+    ratios: [
+      { name: "mouton", quantity: 1 },
+      { name: "vetementsdetravail", quantity: 1 },
+
+    ],
+    materials: [
+      { name: "Planche", amount: 4},
+    ],
+    descriptionImage: "./productions/vetementsdetravail.png",
+    difficulty: 6,
+    population: [
+      { name: "Paysans", count: 60 }
+    ],
+    price: 245,
+  },
+  Schnapps: {
+    ratios: [
+      { name: "pommedeterre", quantity: 1 },
+      { name: "schnapps", quantity: 1 },
+
+    ],
+    materials: [
+      { name: "Planche", amount: 4 },
+    ],
+    descriptionImage: "./productions/schnapps.png",
+    difficulty: 6,
+    population: [
+      { name: "Paysans", count: 70 }
+    ],
+    price: 100,
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Briques: {
+    ratios: [
+      { name: "argile", quantity: 1 },
+      { name: "brique", quantity: 2 },
+  
+    ],
+    materials: [
+      { name: "Planche", amount: 20 },
+    ],
+    descriptionImage: "./productions/brique.png",
+    difficulty: 1,
+    population: [
+      { name: "Paysans", count: 50 },
+      { name: "Ouvriers", count: 100 },
+    ],
+    price: 1500,
+  },
+  Saucisse: {
+    ratios: [
+      { name: "Cochons", quantity: 1 },
+      { name: "saucisse", quantity: 1 },
+    ],
+    materials: [
+      { name: "Planche", amount: 8 },
+      { name: "Brique", amount: 5 }
+    ],
+    descriptionImage: "./productions/saucisse.png",
+    difficulty: 1,
+    population: [
+      { name: "Paysans", count: 30 },
+      { name: "Ouvriers", count: 50 },
+    ],
+    price: 2500,
+  }, 
+    Pain: {
     ratios: [
       { name: "Boulangerie", quantity: 2 },
       { name: "Moulin", quantity: 1 },
       { name: "Ferme de blé", quantity: 2 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 }
     ],
-    descriptionImage: "./boulangerie.webp",
+    descriptionImage: "./productions/boulangerie.png",
     difficulty: 1,
     population: [
       { name: "Paysans", count: 50 },
@@ -42,11 +158,11 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Cochons", quantity: 2 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
     ],
-    descriptionImage: "./savonnerie.webp",
+    descriptionImage: "./productions/savonnerie.png",
     difficulty: 1,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -61,11 +177,11 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Charbon", quantity: 1 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
     ],
-    descriptionImage: "./barre-de-fer.webp",
+    descriptionImage: "./productions/metallerie.png",
     difficulty: 1,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -80,11 +196,11 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Charbon", quantity: 1 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
     ],
-    descriptionImage: "./armes.webp",
+    descriptionImage: "./productions/armes.webp",
     difficulty: 2,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -99,11 +215,11 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Ferme de blé", quantity: 1 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
     ],
-    descriptionImage: "./brasserie.webp",
+    descriptionImage: "./productions/brasserie.png",
     difficulty: 2,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -118,11 +234,11 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Silice", quantity: 2 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
     ],
-    descriptionImage: "./brasserie.webp",
+    descriptionImage: "./productions/fenetre.png",
     difficulty: 2,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -138,12 +254,12 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Poivrons", quantity: 8 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
     ],
-    descriptionImage: "./conserve.webp",
+    descriptionImage: "./productions/conserve.webp",
     difficulty: 3,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -160,12 +276,12 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Charbon", quantity: 1},
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
     ],
-    descriptionImage: "./machine.webp",
+    descriptionImage: "./productions/machine.png",
     difficulty: 3,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -181,12 +297,12 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Coton", quantity: 2 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
     ],
-    descriptionImage: "./vetement.webp",
+    descriptionImage: "./productions/vetement.png",
     difficulty: 3,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -203,12 +319,12 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Charbon", quantity: 1 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
     ],
-    descriptionImage: "./ciment.webp",
+    descriptionImage: "./productions/ciment.png",
     difficulty: 3,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -226,13 +342,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Cuivre", quantity: 1 },
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./lunettes.webp",
+    descriptionImage: "./productions/lunette.png",
     difficulty: 3,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -253,13 +369,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Charbon", quantity: 1},
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./lunettes.webp",
+    descriptionImage: "./productions/armeslourdes.png",
     difficulty: 4,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -277,13 +393,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Charbon", quantity: 1},
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./cycle.webp",
+    descriptionImage: "./productions/cycle.png",
     difficulty: 3,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -303,13 +419,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Cuivre", quantity: 2},
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./moteur.webp",
+    descriptionImage: "./productions/moteur.png",
     difficulty: 4,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -328,13 +444,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Silice", quantity: 2},
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./moteur.webp",
+    descriptionImage: "./productions/montre.png",
     difficulty: 4,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -352,13 +468,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Silice", quantity: 2},
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./ampoules.webp",
+    descriptionImage: "./productions/ampoule.png",
     difficulty: 4,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -376,13 +492,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Raisin", quantity: 4},
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./champagne.webp",
+    descriptionImage: "./productions/champagne.webp",
     difficulty: 4,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -400,13 +516,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Perles", quantity: 6},
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./bijoux.webp",
+    descriptionImage: "./productions/bijoux.png",
     difficulty: 4,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -425,13 +541,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
       { name: "Bois", quantity: 1},
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./moteur.webp",
+    descriptionImage: "./productions/gramophone.png",
     difficulty: 4,
     population: [
       { name: "Ouvriers", count: 190 },
@@ -456,13 +572,13 @@ export const productionChains: { [key: string]: ProductionChain } = {
      
     ],
     materials: [
-      { name: "Bois", amount: 20 },
+      { name: "Planche", amount: 20 },
       { name: "Brique", amount: 15 },
       { name: "Barre_de_fer", amount: 15 },
       { name: "Fenetre", amount: 15 },
       { name: "Ciment", amount: 15 },
     ],
-    descriptionImage: "./vehicule.webp",
+    descriptionImage: "./productions/vehicule.png",
     difficulty: 5,
     population: [
       { name: "Ouvriers", count: 190 },

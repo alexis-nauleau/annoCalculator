@@ -47,10 +47,28 @@ export default function Filter({ onFilterChange }: { onFilterChange: (filter: st
 
   return (
     <div>
-      <div className="flex gap-4 mb-4 bg-gray-900 p-5 justify-center">
-        <FilterByType filter={filter} setFilter={setFilter} onFilterChange={onFilterChange} />
-        <FilterByRarity rarityFilter={rarityFilter} setRarityFilter={setRarityFilter} />
-        <FilterByTarget targetFilter={targetFilter} setTargetFilter={setTargetFilter} allTargets={allTargets} />
+      <div className="flex gap-4 mb-4 bg-gray-900 p-5 justify-center w-full flex-wrap">
+      
+      <FilterByType filter={filter} setFilter={setFilter} onFilterChange={onFilterChange} targetFilter={""} setTargetFilter={function (value: string): void {
+          throw new Error("Function not implemented.");
+        } } allTargets={[]} rarityFilter={""} setRarityFilter={function (value: string): void {
+          throw new Error("Function not implemented.");
+        } } Name={""} IconFilename={""} Rarity={""} cibles={""} location={""} bonus={[]} />
+        <FilterByRarity rarityFilter={rarityFilter} setRarityFilter={setRarityFilter} targetFilter={""} setTargetFilter={function (value: string): void {
+          throw new Error("Function not implemented.");
+        } } allTargets={[]} filter={""} setFilter={function (value: string): void {
+          throw new Error("Function not implemented.");
+        } } onFilterChange={function (filter: string): void {
+          throw new Error("Function not implemented.");
+        } } Name={""} IconFilename={""} Rarity={""} cibles={""} location={""} bonus={[]} />
+        <FilterByTarget targetFilter={targetFilter} setTargetFilter={setTargetFilter} allTargets={allTargets} filter={""} setFilter={function (value: string): void {
+          throw new Error("Function not implemented.");
+        } } onFilterChange={function (filter: string): void {
+          throw new Error("Function not implemented.");
+        } } rarityFilter={""} setRarityFilter={function (value: string): void {
+          throw new Error("Function not implemented.");
+        } } Name={""} IconFilename={""} Rarity={""} cibles={""} location={""} bonus={[]} />
+   
       </div>
 
       <div className="flex flex-wrap justify-center gap-4">
