@@ -1,28 +1,5 @@
 [
-    {
-        "name": "saucisse",
-        "besoins": [
-            {
-                "name": "porc",
-                "value": 500
-            },
-            {
-                "name": "plaques",
-                "value": 4
-            }
-        ],
-        "installations": [
-            {
-                "name": "boucherie",
-                "capacité": 500,
-                "ouvriers": 4
-            },
-            {
-                "name": "ouvriers",
-                "nombre": 30
-            }
-        ]
-    },
+sauciss verifier les nombre dans batiments
 
     {
         "name": "eglise",

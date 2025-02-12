@@ -237,4 +237,59 @@
             }
         ]
     },
+    "saucisse": {
+        "Name": "saucisse",
+        "IconFilename": "./productions/saucisse.png",
+        "price": "2500",
+        "besoins": [
+            {
+                "name": "cochon",
+                "IconFilename": "/productions/cochon.png",
+                "value": "1",
+                "price": "500",
+                "besoins": [
+                    {
+                        "name": "Planches",
+                        "IconFilename": "./productions/planche.png",
+                        "value": "4"
+                    }
+                ],
+                "population": [
+                    {
+                        "name": "Paysans",
+                        "count": 30,
+                        "IconFilename": "./residents/icone_fermiers.png"
+                    }
+                ]
+            },
+            {
+                "name": "Boucherie",
+                "IconFilename": "./productions/saucisse.png",
+                "value": "2",
+                "price": "500",
+                "besoins": [
+                    {
+                        "name": "Planches",
+                        "IconFilename": "./productions/planche.png",
+                        "value": "8"
+                    },
+                    {
+                        "name": "Brique",
+                       "IconFilename": "./productions/brique.png",
+                        "value": "8"
+                    }
+                ],
+                "population": [
+                    {
+                        "name": "Ouvriers",
+                        "count": 50,
+                        "IconFilename": "./residents/icone_ouvriers.png"
+                    }
+                ]
+            }
+        ]
+
+    }
+
+    
 }
